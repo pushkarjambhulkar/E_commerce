@@ -1,0 +1,83 @@
+.product-list-container {
+  margin: 10px;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th, .product-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.product-table th {
+  background-color: #f4f4f4;
+}
+
+.action-cell {
+  display: flex;
+  align-items: center; /* Align buttons vertically center */
+  gap: 8px; /* Space between buttons */
+  width: 100%; /* Adjust width of the cell */
+}
+
+.delete-button, .update-button {
+  padding: 4px 8px; /* Adjust padding to decrease button size */
+  border: none;
+  border-radius: 4px;
+  width: 80px;
+  cursor: pointer;
+  font-size: 14px; /* Optionally adjust font size */
+}
+
+.delete-button {
+  background-color: #f44336; /* Red for Delete */
+  color: white;
+}
+
+.update-button {
+  background-color: #4CAF50; /* Green for Update */
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #e53935;
+}
+
+.update-button:hover {
+  background-color: #388e3c;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.btn-search {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px 0 0 4px;
+  cursor: pointer;
+}
+
+.btn-search:hover {
+  background-color: #0056b3;
+}
+
+.input-search {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  font-size: 16px;
+}
+
+
+
